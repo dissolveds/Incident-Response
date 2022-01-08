@@ -6,6 +6,11 @@ These files are then used by the OS to pre-load the stored information from disk
 With Windows Vista, this idea was extended to SuperFetch, which tracks user behavior and attempts to predict when applications will be launched and cache the data necessary to load each application in advance.
 The Application Prefetch file is named using the **name of the executable**, followed by a **dash**, and then an **eight character hash of the location** from which that application was run (eg. CALC.EXE-77FDF17F.pf)
 
+#### Maximum Number of Prefetch files:
+
+Windows XP to Windows 7: 128  
+Windows 8 to Windows 10: 1024
+
 
 ## Forensic Value of Prefetch Files
 
