@@ -3,7 +3,7 @@
 Live Machines:
 - FTK Imager
 - Redline
-- Rekall
+- Rekall  
   imagecopy \path\to\file.img
 - DumpIt.exe
 - win32dd.exe / win64dd.exe
