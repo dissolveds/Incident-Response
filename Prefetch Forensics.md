@@ -40,15 +40,12 @@ Under this key, the EnablePrefetcher value can either be:
 
 ![image](https://user-images.githubusercontent.com/18302548/148655719-86a7c59b-9c27-4242-8331-bf96d1b076f8.png)
 
-
-
  #### Forensic use-cases
  
  - Prefetch files can prove that a suspect ran a cleanup program to cover up any traces of wrongdoing
  - If a program has since been deleted, a Prefetch file may still exist to provide evidence of previous existence and execution.
- - By analyzing the Prefetch files, forensic investigators can determine the exact path of a malware and when it was first/last run. 
-
-
+ - By analyzing the Prefetch files, forensic investigators can determine the exact path of a malware and when it was first/last run.
+ - Same names but unusual executable locations or file sizes
 
 
 ## Tools
