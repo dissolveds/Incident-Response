@@ -48,7 +48,7 @@ Under this key, the EnablePrefetcher value can either be:
  - Same names but unusual executable locations or file sizes
 
 #### Notes
-Based on [Krzystof Gajewski blog post](https://cyberdefnerd.com/2022/01/16/can-windows-update-fool-you-during-the-investigation/) Windows Update may delete delete PREFETCH files.
+Based on [Krzystof Gajewski blog post](https://cyberdefnerd.com/2022/01/16/can-windows-update-fool-you-during-the-investigation/) Windows Update may delete PREFETCH files.
 
 
 ## Tools
