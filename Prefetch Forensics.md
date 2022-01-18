@@ -47,6 +47,9 @@ Under this key, the EnablePrefetcher value can either be:
  - By analyzing the Prefetch files, forensic investigators can determine the exact path of a malware and when it was first/last run.
  - Same names but unusual executable locations or file sizes
 
+#### Notes
+Based on [Krzystof Gajewski blog post](https://cyberdefnerd.com/2022/01/16/can-windows-update-fool-you-during-the-investigation/) Windows Update may delete delete PREFETCH files.
+
 
 ## Tools
 
