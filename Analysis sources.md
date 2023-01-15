@@ -34,7 +34,7 @@
 **Background Activity Moderator (BMR)**  
 `Registry:HKLM\System\CurrentControlSet\bam\UserSettings`  
 **AppCompatCache/ShimCache**  
-`Registry:HKLM\System\CurrentControlSet\Control\SessionManager\AppcompatCache`
+`Registry:HKLM\System\CurrentControlSet\Control\SessionManager\AppcompatCache`  
 **Amcache**  
 `Registry: C:\Windows\appcompat\Programs\Amcache.hve`  
 
