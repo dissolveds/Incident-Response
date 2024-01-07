@@ -64,3 +64,51 @@ Forensically interestings tables:
 logins - origin URL, username value, date created and date_password_modified
 
 Note: the password will be empty because they are stored in encrypted form and will therefore display as a BLOB value.
+
+**Form History**
+
+Chrome Form History is stored in the 'Web Data' SQLite database, within the 'autofill' table
+The data encompasses a record of the HTML element name, the value entered, the timestamp of the first time the value was entered, the date the value was last entered, and the number of times the record has been used.
+```
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Web Data
+```
+```
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\ChromeDefaultData\Web Data
+```
+Forensically interestings tables:
+
+- autofill - name, value, value_lower
+- autofill_profile_emails - guid ,email
+- credit_cards - name_on_card, card_number_encrypted, date_modified.
+
+**Top Sites**
+
+```
+C:\user\<username>\AppData\Local\Google\Chrome\User Data\Default\Top Sites
+```
+
+**Browser Add-ons and Extensions**
+
+Extensions are mostly created using html, CSS, and javascript for compatibility across browsers. This is the most forensically important directory since malicious extensions mostly use malicious javascript code to conduct malicious activities. 
+The **manifest.json** file is a fast way for a forensics analyst to view a high-level overview of the extension metadata such as author, location of js scripts, name of extension, version, etc.
+```
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Extensions\
+
+```
+
+**Sessions Data**
+
+Current Sessions/Tabs:
+```
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Current Session
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Current Tabs
+```
+Last Sessions/Tabs:
+
+```
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Last Session
+C:\Users\<username>\AppData\Local\Google\Chrome\User Data\Default\Last Tabs
+```
+
+Note: The files above are stored in binary form
+
